@@ -1,0 +1,73 @@
+.lo{
+    position: fixed;
+    right: 0;
+    top: 40px;
+    padding: 15px;
+    width: 200px;
+    border: 1px solid var(--bg-black-50);
+    background: var(--bg-black-100);
+    z-index: 101;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    transform: translateX(100%);
+}
+.lo.open{
+    transform: translateX(-25px);
+}
+.lo .s-icon{
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    font-size: 20px;
+    background: var(--bg-black-100);
+    color: var(--text-black-900);
+    right: 100%;
+    border: 1px solid var(--bg-black-50);
+    margin-right: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-radius: 50%;
+}
+.lo .s-icon i{
+    line-height: 40px;
+}
+.lo .loon{
+    top: 0;
+}
+.lo .ddark {
+    top: 55px;
+}
+.lo h4 {
+    margin: 0 0 10px;
+    color: teal;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.lo .colors{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.lo .colors span{
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+.lo .color-1{
+    background: #ec1839;
+}
+.lo .color-2{
+    background: #fa5b0f;
+}
+.lo .color-3{
+    background: #37b182;
+}
+.lo .color-4{
+    background: #1954b4;
+}
+.lo .color-5{
+    background: #f021b2;
+}
